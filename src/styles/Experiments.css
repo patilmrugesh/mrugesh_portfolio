@@ -1,0 +1,54 @@
+.experiments-section {
+    padding: 60px 24px;
+    position: relative;
+  }
+  
+  .experiments-container {
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+  
+  .title-arrow.purple {
+    color: #a78bfa;
+  }
+  
+  .experiments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 16px;
+  }
+  
+  .experiment-card {
+    background-color: rgba(17, 24, 39, 0.5);
+    border: 1px solid #1f2937;
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .experiment-card:hover {
+    border-color: rgba(168, 85, 247, 0.5);
+  }
+  
+  .experiment-arrow {
+    color: #a78bfa;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  
+  .experiment-text {
+    color: #d1d5db;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .experiments-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

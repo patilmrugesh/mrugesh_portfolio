@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Roboto+Mono:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+  background-color: #0a0e14;
+  color: #e0e6ed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Winterfell Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

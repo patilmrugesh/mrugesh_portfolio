@@ -1,0 +1,32 @@
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.bg-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(16, 185, 129, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+}
+
+/* Smooth scroll offset for fixed navbar */
+html {
+  scroll-padding-top: 80px;
+}

@@ -1,0 +1,121 @@
+
+.clients-section {
+    padding: 128px 24px;
+    position: relative;
+    background: linear-gradient(180deg, #000 0%, #0a0a0a 100%);
+  }
+  
+  .clients-container {
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+  
+  .title-arrow.pink {
+    color: #ec4899;
+  }
+  
+  .clients-grid {
+    display: grid;
+    gap: 32px;
+  }
+  
+  .client-card {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    padding: 32px;
+    transition: all 0.3s ease;
+  }
+  
+  .client-card:hover {
+    border-color: #ec4899;
+    box-shadow: 0 0 30px rgba(236, 72, 153, 0.2);
+    transform: translateX(8px);
+  }
+  
+  .client-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .client-icon {
+    color: #ec4899;
+    flex-shrink: 0;
+  }
+  
+  .client-meta {
+    flex: 1;
+  }
+  
+  .client-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ec4899;
+    margin-bottom: 4px;
+  }
+  
+  .project-duration {
+    font-size: 13px;
+    color: #6b7280;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  
+  .project-desc {
+    color: #9ca3af;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  .deliverables {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #1f2937;
+  }
+  
+  .deliverables h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #10b981;
+  }
+  
+  .deliverables ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .deliverables li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 13px;
+    color: #d1d5db;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  .check-icon {
+    color: #10b981;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .client-card {
+      padding: 24px;
+    }
+  }
