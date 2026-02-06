@@ -69,7 +69,7 @@ function Hero() {
               <span>View Projects</span>
               <ArrowRight size={20} className="btn-icon" />
             </a>
-            <a href="/src/resume.pdf" download className="btn-secondary">
+            <a href="src\assets\resume.pdf" download className="btn-secondary">
               <Download size={20} className="btn-icon-download" />
               <span>Download Resume</span>
             </a>
@@ -95,7 +95,7 @@ function Hero() {
           <div className="image-border">
             <div className="image-frame">
               <img 
-                src="/src/profile1.jpg" 
+                src= 'src\assets\profile1.jpg'
                 alt="Profile" 
                 className="profile-pic"
               />
