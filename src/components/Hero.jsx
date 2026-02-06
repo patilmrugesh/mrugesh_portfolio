@@ -69,7 +69,7 @@ function Hero() {
               <span>View Projects</span>
               <ArrowRight size={20} className="btn-icon" />
             </a>
-            <a href="/resume.pdf" download className="btn-secondary">
+            <a href="/src/resume.pdf" download className="btn-secondary">
               <Download size={20} className="btn-icon-download" />
               <span>Download Resume</span>
             </a>
