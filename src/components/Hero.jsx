@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Terminal, Code2, Database, Cloud, Lock, Container, Download, ArrowRight, Sparkles } from 'lucide-react'
 import '../styles/Hero.css'
+import profilePic from '../assets/profile1.jpg'
 
 function Hero() {
   const [displayText, setDisplayText] = useState('')
@@ -95,7 +96,7 @@ function Hero() {
           <div className="image-border">
             <div className="image-frame">
               <img 
-                src= 'src\assets\profile1.jpg'
+                src={profilePic}
                 alt="Profile" 
                 className="profile-pic"
               />
