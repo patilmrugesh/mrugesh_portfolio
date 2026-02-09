@@ -113,10 +113,10 @@
   animation: float-rotate 4s ease-in-out infinite;
 }
 
-.sparkle-icon {
+/* .sparkle-icon {
   color: #fbbf24;
   filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.5));
-}
+} */
 
 @keyframes float-rotate {
   0%, 100% {
