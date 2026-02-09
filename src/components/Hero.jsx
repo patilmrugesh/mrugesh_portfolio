@@ -49,9 +49,9 @@ function Hero() {
                 <span className="white-text">Developer</span>
               </span>
             </h1>
-            <div className="title-decoration">
+            {/* <div className="title-decoration">
               <Sparkles size={32} className="sparkle-icon" />
-            </div>
+            </div> */}
           </div>
 
           <div className="subtitle-wrapper">
